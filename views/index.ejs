@@ -1,0 +1,160 @@
+<%- include("partials/header") %>
+
+<!-- carousel -->
+
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images\carmain.jpg" class="d-block w-100" alt="car1">
+      <div class="carousel-caption d-none d-md-block">
+      <h5 class = "carousel-caption">Live your Life With Ease</h5>
+      <button type="button" class="btn btn-success carousel-button" name="button">Book Now</button>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images\car1.jpg" class="d-block w-100" alt="car2">
+      <div class="carousel-caption d-none d-md-block">
+      <h5 class = "carousel-caption">Say "Hey" to the Future</h5>
+      <p style = "letter-spacing: 0rem;font-size: 20px; position: absolute; bottom: 150px; left: 350px;">
+        The New Mercedes-Benz GLC
+      </p>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images\car2.jpg" class="d-block w-100" alt="car3">
+      <div class="carousel-caption d-none d-md-block">
+      <h5 class = "carousel-caption" style = "font-family: 'Dancing Script', cursive; ; color: white; font-size: 50px;">#switchtoEQ</h5>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- content -->
+
+<section id = "content">
+  <div class = "content1">
+      <h1>
+        Our Vehicles
+      </h1>
+      <h4><a class = "link-content" href="#">All Models</a> |  <a href="#">AMG Models</a>  |  <a href="#">Maybach</a>
+      </h4>
+  </div>
+
+
+
+
+  <!-- collapse-card -->
+  <div class="accordion" id="accordionExample">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <div class= "row">
+
+          <div class="col-lg-6 car-card">
+          <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <i class="fas fa-car fa-5x content-icon"></i>
+          </button>
+        </h2>
+        </div>
+        <div class="col-lg-6 car-card">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <i class="fas fa-search-dollar fa-5x content-icon"></i>
+            </button>
+          </h2>
+        </div>
+      </div>
+      </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <div class= "row">
+            <div class = "car-type col-lg-4">
+              <a href="#"><i class="fas fa-car-side fa-3x content-icon"></i></a>
+              <h5>Saloon</h5>
+            </div>
+            <div class = "car-type col-lg-4">
+              <a href="#"><i class="fas fa-truck-pickup fa-3x content-icon"></i></a>
+              <h5>Coupe</h5>
+            </div>
+            <div class = "car-type col-lg-4">
+              <a href="#"><i class="fas fa-truck-moving fa-3x content-icon"></i></a>
+              <h5>SUV</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          </div
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Filter Applied</h2>
+</section>
+
+<section id = "helpdesk">
+    <div class = "helpdesk">
+
+
+    <div class="row" style = "padding-left: 45px;">
+
+      <div class="col-sm-2 help">
+        <h2>
+          <i class="fas fa-car-alt fa-1x"></i>
+          <p class="para-help">
+            <a class = "link-help" href="#">Book A test Drive</a>
+          </p>
+        </h2>
+        </div>
+      <div class="col-sm-2 help">
+        <h2>
+          <i class="fas fa-search-location fa-1x"></i>
+          <p class="para-help">
+            <a class = "link-help" href="#">Dealer Locator</a>
+          </p>
+        </h2>
+      </div>
+      <div class="col-sm-2 help">
+        <h2>
+          <i class="fas fa-calculator fa-1x"></i>
+          <p class="para-help">
+            <a class = "link-help" href="#">Financial Calculator</a>
+          </p>
+        </h2>
+      </div>
+      <div class="col-sm-2 help">
+        <h2>
+          <i class="fas fa-phone-volume fa-1x"></i>
+            <p class="para-help" >
+              <a class = "link-help" href="#">ContactUs</a>
+            </p>
+        </h2>
+      </div>
+      <div class="col-sm-2 help">
+        <h2>
+          <i class="fas fa-car-crash"></i>
+            <p class="para-help" >
+              <a class = "link-help" href="#">Service</a>
+            </p>
+        </h2>
+      </div>
+    </div>
+    </div>
+</section>
+
+<%- include("partials/footer") %>

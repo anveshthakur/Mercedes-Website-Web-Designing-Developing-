@@ -1,0 +1,282 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#header{
+  background-color: black;
+}
+
+.header{
+  line-height: 1.5;
+  color: white;
+  font-family: 'PT Serif', serif;
+  padding-top: 10px;
+}
+
+.logo{
+  height: 100px;
+  width: 170px;
+  float: left;
+  position: relative;
+  bottom: 7px;
+}
+
+.logo-text{
+  font-size:15px;
+  margin-left: 10px;
+}
+
+
+.navbarr{
+background-color: black;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+text-align: center;
+}
+
+
+.carousel-caption{
+font-size: 50px;
+position: absolute;
+bottom: 200px;
+font-family: 'PT Serif', serif;
+animation: fadeIn 1s;
+letter-spacing: -0.1rem;
+}
+
+@keyframes fadeIn{
+  0%{opacity:0;}
+  80%{opacity:0;}
+  100%{opacity:1;}
+  }
+
+.carousel-button{
+  position: absolute;
+  bottom: 150px;
+  right: 370px;
+  width: 20%;
+  border-radius: 50px;
+  background-color: #3a3535;
+}
+
+hr{
+  border-top: 1px solid white;
+}
+
+#content{
+  margin:30px 70px;
+  font-weight: 100;
+}
+
+.content1{
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+}
+
+.link-content{
+  color: black;
+}
+
+.link-content:hover{
+  color: #3282b8;
+  text-decoration: none;
+}
+
+.card{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.car{
+  text-align: center;
+}
+
+.content-icon{
+  color: #272121;
+}
+
+.content-icon:hover{
+  color: #443737;
+}
+
+.car-card{
+  text-align: center;
+}
+
+.car-type{
+  text-align: center;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  border-radius: 50%;
+  background: black; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#helpdesk{
+  background-color: black;
+}
+
+.helpdesk{
+  margin: 70px 70px 0px 70px;
+
+}
+
+.help{
+  padding: 10px;
+  color: white;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  background-color: #333333;
+  margin:5px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 5px
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.help:hover{
+  background-color: #5d5b6a;
+}
+
+.para-help{
+  font-size: 30px;
+  padding: 5px;
+}
+
+.link-help{
+  color: white;
+}
+
+.link-help:hover{
+  text-decoration: none;
+  color: white;
+}
+
+#footer{
+  background-color: #3a3535;
+  color: white;
+}
+
+.footer{
+  margin: 0px 70px;
+}
+
+
+.social-icon{
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.social{
+ text-align: center;
+}
+
+.main-footer-link{
+  font-weight: bold;
+  color: white;
+}
+
+.main-footer-link:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-link{
+  color: white;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.footer-foot{
+  background-color: black;
+  padding: 5px 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* about */
+.about{
+margin: 70px 30px;
+
+}
+
+.about-image{
+  margin-left: 450px;
+}
+
+.wp-cart{
+  font-size: 30px;
+}
+
+
+/* .typewriter h1 {
+  color: #fff;
+  font-family: 'PT Serif', serif;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+ /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+} */

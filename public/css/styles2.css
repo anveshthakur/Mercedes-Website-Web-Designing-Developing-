@@ -1,0 +1,32 @@
+body{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.form-div{
+    padding-left: 450px;
+    text-align: center;
+    border: 0.5px solid white;
+    margin-top: 60px;
+     box-shadow: 5px 10px 8px #888888;
+}
+
+.submit{
+  position: relative;
+  right: 210px;
+  bottom: 20px;
+  color: white;
+  border-radius: 50px;
+  width: 150px;
+}
+
+label{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.form-group{
+  margin: 50px;
+}

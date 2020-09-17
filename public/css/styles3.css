@@ -1,0 +1,45 @@
+body{
+  background-color: #333333;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  background-color: #5b5656;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+    left: 606px;
+    top: 233px;
+}
+
+.main-card{
+  background-color: white;
+width: 30rem;
+margin-top: 220px;
+margin-left: 410px;
+margin-bottom: 50px;
+}
+
+.card-content{
+  margin: 20px 20px 20px 0px;
+}
+
+.su-button{
+  margin: 30px 30px 30px 65px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+
+.social{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.social-icon{
+  font-size: 30px;
+  margin-right: 50px;
+  color: white;
+}
